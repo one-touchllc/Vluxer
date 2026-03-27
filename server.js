@@ -1,3 +1,9 @@
+// ─── CONFIGURATION ──────────────────────────────────────────────────────────
+const VLUXER_CONFIG = {
+    GOOGLE_CLIENT_ID: "947590068056-86b58om05ii67fqfa0u2pls749qtii5g.apps.googleusercontent.com",
+    SESSION_SECRET: "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",
+    API_BASE_URL: "http://localhost:3000" // Aapka backend URL
+};
 require('dotenv').config();
 const express        = require('express');
 const http           = require('http');
